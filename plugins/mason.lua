@@ -10,9 +10,9 @@ return {
         "lua_ls",
         "tsserver",
         "cssls",
-        "eslint-lsp",
+        "eslint",
         "denols",
-        "html-lsp",
+        "html",
       })
     end,
   },
