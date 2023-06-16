@@ -11,7 +11,6 @@ return {
         "tsserver",
         "cssls",
         "eslint",
-        "denols",
         "html",
       })
     end,
