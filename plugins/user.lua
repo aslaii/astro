@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "mg979/vim-visual-multi",
+  {
+    "pmizio/typescript-tools.nvim",
+    dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+    opts = {},
+  },
 }
