@@ -9,6 +9,16 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "AstroNvim/astrotheme",
+    event = "BufEnter",
+    config = function()
+      require("astrotheme").setup {
+        palette = "astrodark",
+      }
+    end,
+  },
+  "tpope/vim-surround",
   "mg979/vim-visual-multi",
   {
     "pmizio/typescript-tools.nvim",

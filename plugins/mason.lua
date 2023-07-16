@@ -12,6 +12,7 @@ return {
         "cssls",
         "eslint",
         "html",
+        "jsonls",
       })
     end,
   },
